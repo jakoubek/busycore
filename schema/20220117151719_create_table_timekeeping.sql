@@ -13,7 +13,7 @@ CREATE TABLE "timekeeping" (
   "mite_id" integer,
   "minutes" integer,
   "revenue" NUMERIC(10,2),
-  "hourly_rate" integer,
+  "hourly_rate" NUMERIC(10,2),
   CONSTRAINT "timekeeping_id_seq_pkey" PRIMARY KEY ("id")
 ) WITH (oids = false);
 
